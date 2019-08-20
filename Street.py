@@ -36,7 +36,7 @@ def read_data_thingspeak():
   b=max(t,key=t.count)
   print("maximum data ",max(t,key=t.count)) 
   URl='https://api.thingspeak.com/update?api_key='
-  KEY='9DL7U7WNTMGJGIQM'
+  KEY='B9RDBVP7MF9JYNEV'
   HEADER='&field1={}&field2={}'.format(b,b)
   NEW_URL=URl+KEY+HEADER
   print(NEW_URL)
