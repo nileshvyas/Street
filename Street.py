@@ -3,7 +3,7 @@ import requests
 import threading
 import json
 
-import random
+
 
 
 # Define a function that will post on server every 15 Seconds  
