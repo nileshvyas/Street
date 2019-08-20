@@ -1,1 +1,1 @@
-worker: python street.py
+worker: python Street.py
