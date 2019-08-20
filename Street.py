@@ -7,7 +7,7 @@ def read_data_thingspeak():
   print("hello")
   b=5
   URl='https://api.thingspeak.com/update?api_key='
-  KEY='B9RDBVP7MF9JYNEV'
+  KEY='9DL7U7WNTMGJGIQM'
   HEADER='&field1={}&field2={}'.format(b,b)
   NEW_URL=URl+KEY+HEADER
   print(NEW_URL)
