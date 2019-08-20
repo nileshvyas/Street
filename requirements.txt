@@ -1,4 +1,4 @@
 pip
 requests
-import json
-import urllib
+urllib
+json
