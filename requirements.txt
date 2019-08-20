@@ -1,5 +1,6 @@
 pip
-urllib.request
 requests
 threading
 json
+urllib
+request
