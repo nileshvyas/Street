@@ -5,7 +5,7 @@ import json
 from flask import Flask
 
 app=Flask(__name__)
-@app.route("/")
+@app.route("/gaurav")
 
 def hello():
     return "hello world"
