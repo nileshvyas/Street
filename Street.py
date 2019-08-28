@@ -2,8 +2,13 @@ import urllib.request
 import requests
 import threading
 import json
+from flask import Flask
 
+app=Flask(__name__)
+@app.route("/")
 
+def hello():
+    return "hello world"
 
 
 
@@ -47,4 +52,5 @@ def read_data_thingspeak():
 if __name__ == '__main__':
     
   read_data_thingspeak()
+  app.run()
   #hingspeak_post()
