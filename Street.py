@@ -5,12 +5,14 @@ import json
 from flask import Flask
 
 app=Flask(__name__)
-@app.route("/gaurav")
-
+@app.route("/")
 def hello():
-    return "hello world"
+    return "hello world on root"
 
 
+@app.route("/harry")
+def hello1():
+    return "hello world in harry"
 
 # Define a function that will post on server every 15 Seconds  
   
