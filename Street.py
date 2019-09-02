@@ -52,5 +52,5 @@ def read_data_thingspeak():
 if __name__ == '__main__':
     
   read_data_thingspeak()
-  app.run()
+  app.run(host='0.0.0.0',port=5000,debug=True)
   #hingspeak_post()
