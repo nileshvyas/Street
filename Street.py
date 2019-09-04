@@ -28,7 +28,7 @@ current_time=datetime.strptime(basedate,formatfrom).strftime(formatto)
 # Define a function that will post on server every 15 Seconds  
   
 def read_data_thingspeak():
-  threading.Timer(120,read_data_thingspeak).start()
+  threading.Timer(58,read_data_thingspeak).start()
   URL=' https://api.thingspeak.com/channels/538984/feeds.json?api_key='
   KEY='X34X42TNNLBL2J21'
   HEADER='&results=7'
