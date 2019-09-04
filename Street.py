@@ -112,4 +112,5 @@ def read_data_thingspeak():
 if __name__ == '__main__':
     
   read_data_thingspeak()
+  time.sleep(120)
   #hingspeak_post()
